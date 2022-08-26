@@ -8,7 +8,6 @@
 body    
     {
         background-color: #776D61;
-        /* background-image: url(./img/juana-de-arco-portada.jpg); */
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -28,7 +27,7 @@ body
             display: grid;
                
         }
-.titulo 
+.titulo, .primer_a   
         {
             background-color: #AFA99D;
             padding-left: 2.5em 0px;
@@ -36,20 +35,43 @@ body
             max-width: 900px;
             margin: 2.2em auto;
         }
+
+.subtitulo, span  
+            {   
+                display: block;
+                background-color: #AFA99D;
+                padding-left: 2.5em 0px;
+                width: 30%;
+                max-width: 900px;
+                margin: 2.2em auto;
+            }
+
+
+.subtitulo h1  
+                    {
+                        text-align: center;
+                        font-size: 28pt;
+                    }
+                    
+                    
+                    
+q  
+    {
+        border-left: 4pt solid #5F021F;
+        font-style: italic;
+        font-size: 16pt;
+    }
+/* .primer_a h2 
+                {
+                    
+                } */
+
 h1
             {
                 /* padding-left: 2.5em 0px; */
                 text-align: center; text-transform: uppercase;
                 font-size: 3.5em;
                 font-weight: 700;  
-            }
-
-.subtitulo  
-            {
-                background-color: #AFA99D;
-                width: 60%;
-                max-width: 900px;
-                margin: 2.2em auto;
             }
             
 .container 
@@ -61,30 +83,11 @@ h1
                 display: grid;
                 gap: 2.5em;
 
-                grid-template-columns: repeat(4, 1fr) ;
+                grid-template-columns: repeat(2, 1fr) ;
             }
 
-.grid-title 
+.container div, aside, img, p
             {
-                display: grid;
-               
+                padding: 15px;
+                border: 2px solid black;
             }
-
-
-/* .banner 
-        {
-           background-image: url(./img/juana-de-arco-.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            background-position-y: -10rem;
-            height: 28vh;
-            margin: 0rem 8rem 0rem 8rem;
-        }
-
-.banner h1  
-            {
-                border: 0pt;
-              font-size: 80px;
-               
-            } */
