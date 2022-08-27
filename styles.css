@@ -1,93 +1,116 @@
-*
-    {
-        margin: 0;
-        padding: 0;
-        color: #090C02;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    color: #090C02;
+}
 
-body    
-    {
-        background-color: #776D61;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        font-family: 'Poppins', sans-serif;
-    }
+body {
+    background-color: #776D61;
+    font-family: 'Poppins', sans-serif;
+}
     
-.banner
-        {
-            background-color: aquamarine;
-            background-image: url(./img/juana-de-arco-web.jpg); 
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: 100%;
-            background-position: center;
-            background-position-y: -4rem;
-            height: 28vh;
-            display: grid;
-               
-        }
-.titulo, .primer_a   
-        {
-            background-color: #AFA99D;
-            padding-left: 2.5em 0px;
-            width: 60%;
-            max-width: 900px;
-            margin: 2.2em auto;
-        }
+.banner {
+    background-image: url(./img/juana-de-arco-web.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-position: center;
+    background-position-y: -4rem;
+    height: 28vh;
+}
 
-.subtitulo, span  
-            {   
-                display: block;
-                background-color: #AFA99D;
-                padding-left: 2.5em 0px;
-                width: 30%;
-                max-width: 900px;
-                margin: 2.2em auto;
-            }
+.titulo, .primer_article  {
 
+    background-color: #AFA99D;
+    padding-left: 2.5em 0px;
+    width: 60%;
+    max-width: 800px;
+    margin: 2.2em auto;
+}
 
-.subtitulo h1  
-                    {
-                        text-align: center;
-                        font-size: 28pt;
-                    }
-                    
-                    
-                    
-q  
-    {
-        border-left: 4pt solid #5F021F;
-        font-style: italic;
-        font-size: 16pt;
-    }
-/* .primer_a h2 
-                {
-                    
-                } */
+.subtitulo {   
 
-h1
-            {
-                /* padding-left: 2.5em 0px; */
-                text-align: center; text-transform: uppercase;
-                font-size: 3.5em;
-                font-weight: 700;  
-            }
+    display: block;
+    background-color: #AFA99D;
+    padding-left: 2.5em 0px;
+    width: 60%;
+    max-width: 800px;
+    margin: 2.2em auto;
+}
+
+.subtitulo h2 {
+
+    text-align: center;
+    font-size: 28pt;
+    text-align: center; 
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+h1 {
+    padding-left: 2.5em 0px;
+    text-align: center; 
+    text-transform: uppercase;
+    font-size: 3.5em;
+    font-weight: 700;  
+}  
+
+span {
+    display: block;
+    background-color: #AFA99D;
+    padding-left: 2.5em 0px;
+    width: 40%;
+    max-width: 450px;
+    margin: 2.2em auto;
+    margin-bottom: 4em; 
+}    
+                    
+q  {
+    border-left: 4pt solid #5F021F;
+    font-style: italic;
+    font-size: 14pt;
+    font-weight: 200;
+}
+
+h2 {
+
+    text-transform: uppercase;
+}
+
+p {
+
+    font-weight: 100;
+}
             
-.container 
-            {
-                background-color: #AFA99D;
-                width: 60%;
-                max-width: 900px;
-                margin: 2.2em auto;
-                display: grid;
-                gap: 2.5em;
+.container {
 
-                grid-template-columns: repeat(2, 1fr) ;
-            }
+    background-color: #AFA99D;
+    width: 60%;
+    max-width: 900px;
+    margin: 2.2em auto;
+}
 
-.container div, aside, img, p
-            {
-                padding: 15px;
-                border: 2px solid black;
-            }
+.container div, aside, img, p, h2{ 
+
+    display: block;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.imagenes {
+
+    /* display: block; */
+    /* background-image: url(https://loremflickr.com/320/240); */
+    background-color: #5F021F;
+    height: 280px;
+    width: 240px;
+    margin: auto;
+    background-size: contain;
+}
+
+footer {
+
+    
+    background-color: #5F021F;
+}
