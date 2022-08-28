@@ -1,19 +1,20 @@
 .container {
-
+    width: 60vw;
+    max-width: 800px;
+    margin: 2.2em auto;
     display: grid;
-    gap: 2em;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 380px);
-    /* grid-template-rows: minmax(300px 1fr) 1fr; */
-}
-
-.container aside {
-
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: auto; */
     
 }
 
-.imagenes {
+.container .contenido {
 
-    display: grid;
-    gap: 2em;
+    /* grid-column: span 2; */
+}
+
+.container footer {
+
+    grid-column: -4/-1;
 }

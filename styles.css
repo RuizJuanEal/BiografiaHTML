@@ -1,15 +1,16 @@
 * {
-    margin: 0;
-    padding: 0;
-    color: #090C02;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
     background-color: #776D61;
     font-family: 'Poppins', sans-serif;
+    color: #090C02;
 }
     
 .banner {
+
     background-image: url(./img/juana-de-arco-web.jpg); 
     background-repeat: no-repeat;
     background-position: center;
@@ -17,46 +18,28 @@ body {
     background-position: center;
     background-position-y: -4rem;
     height: 28vh;
+    box-shadow: 0px 4px 20px #090c02be ;
 }
 
-.titulo, .primer_article  {
+.titulo, .subtitulo, .introduccion  {
 
     background-color: #AFA99D;
     padding-left: 2.5em 0px;
-    width: 60%;
+    width: 60vw;
     max-width: 800px;
     margin: 2.2em auto;
 }
 
-.subtitulo {   
-
-    display: block;
-    background-color: #AFA99D;
-    padding-left: 2.5em 0px;
-    width: 60%;
-    max-width: 800px;
-    margin: 2.2em auto;
-}
-
-.subtitulo h2 {
+.bio {
 
     text-align: center;
-    font-size: 28pt;
-    text-align: center; 
     text-transform: uppercase;
     font-size: 2.5em;
     font-weight: 700;
 }
 
-h1 {
-    padding-left: 2.5em 0px;
-    text-align: center; 
-    text-transform: uppercase;
-    font-size: 3.5em;
-    font-weight: 700;  
-}  
+.cita {
 
-span {
     display: block;
     background-color: #AFA99D;
     padding-left: 2.5em 0px;
@@ -64,9 +47,19 @@ span {
     max-width: 450px;
     margin: 2.2em auto;
     margin-bottom: 4em; 
-}    
-                    
+}   
+
+h1 {
+
+    padding-left: 2.5em 0px;
+    text-align: center; 
+    text-transform: uppercase;
+    font-size: 3.5em;
+    font-weight: 700;  
+}  
+                 
 q  {
+
     border-left: 4pt solid #5F021F;
     font-style: italic;
     font-size: 14pt;
@@ -78,39 +71,94 @@ h2 {
     text-transform: uppercase;
 }
 
-p {
+h3 {
 
+    font-size: 22pt;
+    margin-left: 14px;
+    color:#AFA99D ;
+    background-color: #5F021F;
+    margin: 0px 0px 20px 0px;
+    padding-left: 14px;
+}
+
+.introduccion p {
+
+    padding: 10px;
+    padding-left: 14px;
+    margin: auto;
     font-weight: 100;
 }
-            
-.container {
+
+.contenido p {
 
     background-color: #AFA99D;
-    width: 60%;
-    max-width: 900px;
-    margin: 2.2em auto;
-}
-
-.container div, aside, img, p, h2{ 
-
-    display: block;
-    padding: 20px;
-    border: 2px solid black;
-}
-
-.imagenes {
-
-    /* display: block; */
-    /* background-image: url(https://loremflickr.com/320/240); */
-    background-color: #5F021F;
-    height: 280px;
-    width: 240px;
+    padding: 10px;
+    padding-left: 14px;
     margin: auto;
-    background-size: contain;
+    font-weight: 100;
+}
+
+.container,
+.container .contenido,
+.container .sidebar{
+
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.sidebar {
+
+    background-image: url(./img/juana-de-arco-web.jpg);
+    background-size: cover;
+    width: 16rem;
+}
+       
+.side_img0 {
+
+    background: #5F021F;
+    height: 20%;
+    width: 245px;
+    margin: 32% -7px 40% 4px;
+    background-image: url(./img/juana-de-arc_img1.jpg);
+    background-size: cover;
+    border: 2px solid #AFA99D;
+    
+}
+
+.side_img1 {
+
+    background: #5F021F;
+    height: 20%;
+    width: 245px;
+    margin: 80% -7px 40% 4px;
+    background-image: url(./img/juana-de-arc_img2.jpg);
+    background-size: cover;
+    border: 2px solid #AFA99D;
+}
+
+.side_img2 {
+
+    background: #5F021F;
+    height: 20%;
+    width: 245px;
+    margin: 70% -7px 40% 4px;
+    background-image: url(./img/juana-de-arc_img3.jpg);
+    background-size: cover;
+    border: 2px solid #AFA99D;
 }
 
 footer {
 
-    
-    background-color: #5F021F;
+    color: #AFA99D;
+    font-size: 12pt;
+    background-color: #001427;
+    text-align: center;
+    padding: 12px 0px;
+}
+
+small {
+
+    display: grid;
+    padding: 0px;
+    margin: auto 2em;
 }
