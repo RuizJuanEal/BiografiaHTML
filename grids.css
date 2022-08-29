@@ -4,8 +4,8 @@
     margin: 2.2em auto;
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    /* grid-template-rows: auto; */
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto;
     
 }
 
@@ -16,5 +16,5 @@
 
 .container footer {
 
-    grid-column: -4/-1;
+    grid-column: 1/-1;
 }
